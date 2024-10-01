@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk dikasih gratis."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@ext4you"
+  echo -e "@AndreCruel"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@ZeroDev"
+  echo -e "©zerodev"
   sleep 4
   clear
 }
@@ -62,14 +62,14 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "zerodev" ]; then
+  if [ "$USER_TOKEN" = "andre" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Buy dulu Gih Ke ZeroDev${NC}"
-    echo -e "${YELLOW}TELEGRAM : @ext4you${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6287767050506${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©zerodeveloper${NC}"
+    echo -e "${RED}TELEGRAM : @ext4you${NC}"
+    echo -e "${WHITE}WHATSAPP : 6287767050506${NC}"
+    echo -e "${RED}HARGA TOKEN : 15K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${WHITE}©zerodeveloper${NC}"
     exit 1
   fi
   clear
@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/gitfdil1248/thema/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/zerodevxc/andre/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -452,11 +452,11 @@ while true; do
   echo -e "${BLUE}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${BLUE} ,ggg'               'ggg.                                ${NC}"
   echo -e "${BLUE}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${BLUE}'ggg      ,gg'''  .    ggg       Auto Installer RafatharCode Private   ${NC}"
+  echo -e "${BLUE}'ggg      ,gg'''  .    ggg       Auto Installer Andre   ${NC}"
   echo -e "${BLUE}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/RafatharCode     ${NC}"
-  echo -e "${BLUE} ggg:     ggg._    _,ggg        • Creadit  : RAFATHARCODE ${NC}"
-  echo -e "${BLUE} ggg.    '.'''ggggggp           • Support by RafatharCode X Amalia  ${NC}"
+  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/AndreCruel     ${NC}"
+  echo -e "${BLUE} ggg:     ggg._    _,ggg        • Credit  : Zerodev ${NC}"
+  echo -e "${BLUE} ggg.    '.'''ggggggp           • Support by Andre Cruell  ${NC}"
   echo -e "${BLUE}  'ggg    '-.__                                           ${NC}"
   echo -e "${BLUE}    ggg                                                   ${NC}"
   echo -e "${BLUE}      ggg                                                 ${NC}"
